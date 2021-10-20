@@ -1,14 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Nav } from './styled';
+import {BtnLogin ,Nav } from './styled';
 import Button from '../Button';
 
 export default function Header() {
-
-  function handleClick(){
-
-  }
 
   return (
     <Nav>
@@ -27,11 +23,14 @@ export default function Header() {
         <Link to="/usuario">
           <a href=" ">Área do Usuário</a>
         </Link>
-        <Link to="/login">
-          <a href=" ">Login</a>
-        </Link>
         <Link to="/contato">
-          <Button onClick={handleClick}>Contato</Button>
+          <a href=" ">Contato</a>
+        </Link>
+        <Link to="/login">
+          <BtnLogin> Login </BtnLogin>
+        </Link>
+        <Link to="/cadastro">
+          <Button>Cadastro</Button>
         </Link>
       </div>
     </Nav>
