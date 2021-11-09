@@ -5,7 +5,7 @@ export const Div = styled.div`
     background: url(${bgImage}) center;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 88vh;
     position: relative;
     display: flex;
     flex-direction: row;

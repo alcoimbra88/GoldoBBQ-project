@@ -9,7 +9,8 @@ export const Foot = styled.footer`
   justify-content: center;
   bottom: 0;
   width: 100%;
-  position: relative;
+  position: fixed;
+
 
   a {
     color: #fff;

@@ -20,6 +20,9 @@ export default function Header() {
         <Link to="/galeria">
           <a href=" ">Galeria</a>
         </Link>
+        <Link to="/produtos">
+          <a href=" ">Produtos</a>
+        </Link>
         <Link to="/usuario">
           <a href=" ">Área do Usuário</a>
         </Link>
